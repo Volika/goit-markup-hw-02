@@ -1,34 +1,53 @@
 :root {
   --prim-text-color: #757575;
   --title-text-color: #212121;
-  --accent: #2196f3;
+  --accent-color: #2196f3;
   --prim-backg-color: #e5e5e5;
   --light-backg-color: #f5f4fa;
   --dark-backg-color: #2f303a;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--prim-text-color);
 }
 a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* --- LOGO --------------- */
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
-  color: var(--accent);
+  color: var(--accent-color);
 }
 .logo-sp {
   color: #000000;
 }
 .logo:hover .logo-sp {
-  color: var(--accent);
+  color: var(--accent-color);
 }
-.list {
-  list-style: none;
+.logo:focus .logo-sp {
+  color: var(--accent-color);
 }
-/* Site nav */
+
+/* --- header-list --------------- */
+.header-list {
+}
