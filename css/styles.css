@@ -28,9 +28,16 @@ a {
   clip-path: inset(50%);
   margin: -1px;
 }
-.text-size-14-16 {
+.prim-text-size {
   font-size: 14px;
   line-height: calc(16 / 14);
+}
+.page-title-style {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* ---Header--------------- */
 .header {
@@ -46,14 +53,24 @@ a {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo-sp {
+.logo-sp-dark {
   font-family: Raleway, sans-serif;
   color: #000000;
 }
-.logo:hover .logo-sp {
+.logo:hover .logo-sp-dark {
   color: var(--accent-color);
 }
-.logo:focus .logo-sp {
+.logo:focus .logo-sp-dark {
+  color: var(--accent-color);
+}
+.logo-sp-light {
+  font-family: Raleway, sans-serif;
+  color: #ffffff;
+}
+.logo:hover .logo-sp-light {
+  color: var(--accent-color);
+}
+.logo:focus .logo-sp-light {
   color: var(--accent-color);
 }
 
@@ -84,7 +101,7 @@ a {
 }
 
 /* --- hero ------------------ */
-.hero {
+.hero-page {
   background-color: var(--dark-backg-color);
 }
 .hero-title {
@@ -108,12 +125,9 @@ a {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-/* advantage */
-.advantage {
+/* --- advantage ----------- */
+.advantage-page {
   background-color: var(--prim-backg-color);
-}
-.advantage-title {
-  color: var(--prim-backg-color);
 }
 .advantage-item-title {
   font-weight: 700;
@@ -122,4 +136,53 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+.advantage-item-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--prim-text-color);
+}
+/* --- development ------------------------- */
+.development-page {
+  background-color: var(--prim-backg-color);
+}
+/* --- team -------------------------- */
+.team-page {
+  background-color: var(--light-backg-color);
+}
+.team-list {
+  background-color: #ffffff;
+}
+.team-item-size {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+.team-item-title {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-item-text {
+  letter-spacing: 0.03em;
+  color: var(--prim-text-color);
+}
+.footer {
+  background-color: var(--dark-backg-color);
+}
+.footer-address-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+.footer-link-address {
+  color: #ffffff;
+}
+.footer-link-mail,
+.footer-link-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
