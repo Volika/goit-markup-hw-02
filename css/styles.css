@@ -28,6 +28,10 @@ a {
   clip-path: inset(50%);
   margin: -1px;
 }
+.text-size-14-16 {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
 /* ---Header--------------- */
 .header {
   background-color: #ffffff;
@@ -36,7 +40,7 @@ a {
 .logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -57,8 +61,8 @@ a {
 .header-list,
 .header-connect {
   font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  /* font-size: 14px; */
+  /* line-height: calc(16 / 14); */
   letter-spacing: 0.02em;
 }
 .header-link {
@@ -93,6 +97,7 @@ a {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,4 +107,19 @@ a {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+}
+/* advantage */
+.advantage {
+  background-color: var(--prim-backg-color);
+}
+.advantage-title {
+  color: var(--prim-backg-color);
+}
+.advantage-item-title {
+  font-weight: 700;
+  /* font-size: 14px; */
+  /* line-height: 16px; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
