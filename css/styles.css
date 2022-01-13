@@ -34,7 +34,7 @@ a {
 }
 /* --- LOGO --------------- */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -43,6 +43,7 @@ a {
   color: var(--accent-color);
 }
 .logo-sp {
+  font-family: Raleway, sans-serif;
   color: #000000;
 }
 .logo:hover .logo-sp {
