@@ -115,6 +115,7 @@ a {
 }
 .hero-btn {
   font-family: inherit;
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -141,7 +142,7 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: var(--prim-text-color);
+  /* color: var(--prim-text-color); */
 }
 /* --- development ------------------------- */
 .development-page {
@@ -166,7 +167,7 @@ a {
 }
 .team-item-text {
   letter-spacing: 0.03em;
-  color: var(--prim-text-color);
+  /* color: var(--prim-text-color); */
 }
 .footer {
   background-color: var(--dark-backg-color);
@@ -185,4 +186,50 @@ a {
 .footer-link-mail,
 .footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+/* --- portfolio-page ---------------- */
+.portfolio-page {
+  background-color: var(--prim-backg-color);
+}
+.portfolio-item {
+}
+.portfolio-item-btn {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--light-backg-color);
+}
+.portfolio-item-btn:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.project-item {
+  background-color: #ffffff;
+}
+.project-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-item-development {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  /* color: var(--prim-text-color); */
+}
+.project-item-text {
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
 }
