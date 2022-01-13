@@ -187,6 +187,11 @@ a {
 .footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-link-address:hover,
+.footer-link-mail:hover,
+.footer-link-tel:hover {
+  color: var(--accent-color);
+}
 /* --- portfolio-page ---------------- */
 .portfolio-page {
   background-color: var(--prim-backg-color);
