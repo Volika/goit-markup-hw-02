@@ -54,8 +54,31 @@ a {
 }
 
 /* --- header-list --------------- */
-.header-list {
+.header-list,
+.header-connect {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
+.header-link {
+  color: var(--title-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link.current {
+  color: var(--accent-color);
+}
+.header-connect-link {
+  color: var(--prim-text-color);
+}
+.header-connect-link:hover,
+.header-connect-link:focus {
+  color: var(--accent-color);
+}
+
 /* --- hero ------------------ */
 .hero {
   background-color: var(--dark-backg-color);
