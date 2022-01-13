@@ -28,6 +28,10 @@ a {
   clip-path: inset(50%);
   margin: -1px;
 }
+/* ---Header--------------- */
+.header {
+  background-color: #ffffff;
+}
 /* --- LOGO --------------- */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -50,4 +54,28 @@ a {
 
 /* --- header-list --------------- */
 .header-list {
+}
+/* --- hero ------------------ */
+.hero {
+  background-color: var(--dark-backg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
