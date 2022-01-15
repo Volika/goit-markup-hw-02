@@ -2,13 +2,14 @@
   --prim-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --prim-backg-color: #e5e5e5;
+  --prim-backg-color: #ffffff;
   --light-backg-color: #f5f4fa;
   --dark-backg-color: #2f303a;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--prim-text-color);
+  background-color: var(--prim-backg-color);
 }
 a {
   text-decoration: none;
@@ -40,13 +41,10 @@ a {
   color: var(--title-text-color);
 }
 /* ---Header--------------- */
-.header {
-  background-color: #ffffff;
-}
+
 /* --- LOGO --------------- */
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -127,9 +125,6 @@ a {
   background-color: var(--accent-color);
 }
 /* --- advantage ----------- */
-.advantage-page {
-  background-color: var(--prim-backg-color);
-}
 .advantage-item-title {
   font-weight: 700;
   /* font-size: 14px; */
@@ -145,37 +140,30 @@ a {
   /* color: var(--prim-text-color); */
 }
 /* --- development ------------------------- */
-.development-page {
-  background-color: var(--prim-backg-color);
-}
+
 /* --- team -------------------------- */
 .team-page {
   background-color: var(--light-backg-color);
 }
-.team-list {
-  background-color: #ffffff;
-}
+
 .team-item-size {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-item-title {
   font-weight: 500;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-item-text {
-  letter-spacing: 0.03em;
   /* color: var(--prim-text-color); */
 }
 .footer {
   background-color: var(--dark-backg-color);
 }
 .footer-address-item {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -198,7 +186,7 @@ a {
 }
 .portfolio-item {
 }
-.portfolio-item-btn {
+.portfolio-btn {
   font-family: inherit;
   cursor: pointer;
   font-weight: 500;
@@ -211,12 +199,9 @@ a {
   color: var(--title-text-color);
   background-color: var(--light-backg-color);
 }
-.portfolio-item-btn:hover {
+.portfolio-btn:hover {
   color: #ffffff;
   background-color: var(--accent-color);
-}
-.project-item {
-  background-color: #ffffff;
 }
 .project-item-title {
   font-weight: 700;
